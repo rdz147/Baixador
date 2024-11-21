@@ -3,7 +3,7 @@ from yt_dlp import YoutubeDL
 def baixar_video(url):
     ydl_opts = {
         'format': 'best',
-        'outtmpl': r'C:\\Users\\rodri\\Documents\\Vídeos do Baixador\\%(title)s.%(ext)s'
+        'outtmpl': r'seuCaminho\\%(title)s.%(ext)s'
     }
     
     with YoutubeDL(ydl_opts) as ydl:
